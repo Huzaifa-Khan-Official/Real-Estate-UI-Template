@@ -4,21 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Find your dream property with myProperty - Browse homes, apartments, and commercial properties for sale or rent.">
+    <meta name="keywords" content="real estate, property, homes for sale, apartments, buy property, rent property">
+    <meta name="author" content="Huzaifa Khan">
+    <meta property="og:title" content="myProperty - Your Dream Home Awaits">
+    <meta property="og:description"
+        content="Browse, explore, and find the perfect property with our innovative website.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://real-estate-ui-template.vercel.app">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
-    <title>myProperty</title>
+    <title>myProperty - Find Your Dream Home | Real Estate Listings</title>
 </head>
 
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md bg-light">
+    <nav class="navbar navbar-expand-md bg-light sticky-top">
         <div class="container py-2">
-            <a class="navbar-brand" href="#">
-                <i class="fa-solid fa-house"></i>
+            <a class="navbar-brand" href="#" aria-label="myProperty Home">
+                <i aria-hidden="true" class="fa-solid fa-house"></i>
                 myProperty
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,8 +55,8 @@
                     </li>
                 </ul>
                 <div>
-                    <button class="navBtn signupBtn">SIgn UP</button>
-                    <button class="navBtn signInBtn">SIGN in</button>
+                    <button class="navBtn signupBtn" aria-label="Sign Up">Sign Up</button>
+                    <button class="navBtn signInBtn" aria-label="Sign In">Sign In</button>
                 </div>
             </div>
         </div>
@@ -54,7 +64,7 @@
 
     <!-- Hero Section -->
     <section class="heroSection d-flex position-relative">
-        <div class="heroBgDiv position-absolute h-100 end-0 bottom-0">
+        <div class="heroBgDiv position-absolute h-100 end-0 bottom-0" aria-hidden="true">
         </div>
         <div class="container position-relative d-xxl-flex align-items-xxl-center">
             <div class="contentDiv">
@@ -64,7 +74,6 @@
                     with
                     sellers, agents, and a vibrant community of home seekers. Your dream home awaits!
                 </p>
-
 
                 <div class="heroCardsDiv d-flex justify-content-center justify-content-sm-between align-items-center gap-4 pe-sm-4 flex-wrap flex-sm-nowrap"
                     data-aos="fade-up">
@@ -78,7 +87,7 @@
                                     Select Your City
                                 </p>
                             </div>
-                            <i class="fa-solid fa-location-dot"></i>
+                            <i aria-hidden="true" class="fa-solid fa-location-dot"></i>
                         </div>
                         <div class="formFind d-flex align-items-center gap-2 gap-sm-4 px-4">
                             <div>
@@ -87,12 +96,12 @@
                                 </p>
                                 <p>$10.000- $50.000</p>
                             </div>
-                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <i aria-hidden="true" class="fa-solid fa-money-bill-wave"></i>
                         </div>
                         <div class="formFind d-flex align-items-center gap-2 gap-sm-4 px-4">
                             <div>
                                 <p>
-                                    Type <i class="fa-solid fa-angle-down"></i>
+                                    Type <i aria-hidden="true" class="fa-solid fa-angle-down"></i>
                                 </p>
                                 <p>
                                     Select Your property
@@ -100,24 +109,24 @@
                             </div>
                         </div>
                     </div>
-                    <i class="fa-solid fa-house"></i>
+                    <i aria-hidden="true" class="fa-solid fa-house"></i>
                 </div>
 
                 <div data-aos="fade-up" class="d-flex gap-4 mt-3 justify-content-center justify-content-sm-start">
                     <div class="heroRoundDiv d-flex flex-column align-items-center justify-content-center gap-2">
-                        <i class="fa-solid fa-house"></i>
+                        <i aria-hidden="true" class="fa-solid fa-house"></i>
                         <p>
                             +500k
                         </p>
                     </div>
                     <div class="heroRoundDiv d-flex flex-column align-items-center justify-content-center gap-2">
-                        <i class="fa-solid fa-building"></i>
+                        <i aria-hidden="true" class="fa-solid fa-building"></i>
                         <p>
                             +200k
                         </p>
                     </div>
                     <div class="heroRoundDiv d-flex flex-column align-items-center justify-content-center gap-2">
-                        <i class="fa-solid fa-shop"></i>
+                        <i aria-hidden="true" class="fa-solid fa-shop"></i>
                         <p>
                             +300k
                         </p>
@@ -130,7 +139,7 @@
     <!-- Services Section -->
     <section id="servicesSection" class="servicesSection">
         <div class="container py-5">
-            <div class="servicesContentDiv d-flex flex-column align-items-center">
+            <div class="servicesContentDiv d-flex flex-column align-items-center mb-4">
                 <h2 data-aos="fade-left">
                     Our Services
                 </h2>
@@ -139,10 +148,10 @@
                 </p>
             </div>
 
-            <div class="servicesCardSection d-flex gap-4 flex-wrap">
+            <div class="servicesCardSection d-flex gap-4 flex-wrap justify-content-center">
                 <div data-aos="fade-up" class="card p-5 active">
                     <div class="cardIconDiv mb-3">
-                        <img src="./assets/Vector (1).svg" alt="">
+                        <img src="./assets/Vector (1).svg" alt="Property Insurance Icon">
                     </div>
                     <div class="cardContentDiv">
                         <h3>Property Insurance</h3>
@@ -153,23 +162,25 @@
                 </div>
                 <div data-aos="fade-up" class="card p-5">
                     <div class="cardIconDiv mb-3">
-                        <img src="./assets/Vector (2).svg" alt="">
+                        <img src="./assets/Vector (2).svg" alt="Loan Services Icon">
                     </div>
                     <div class="cardContentDiv">
-                        <h3>Property Insurance</h3>
+                        <h3>Easy Payment</h3>
                         <p>
-                            Protect your home and peace of mind with our comprehensive property insurance coverage.
+                            Experience hassle-free payments with our easy payment options.. Simplify your life and
+                            manage your finances effortlessly.
                         </p>
                     </div>
                 </div>
                 <div data-aos="fade-up" class="card p-5">
                     <div class="cardIconDiv mb-3">
-                        <img src="./assets/Vector (3).svg" alt="">
+                        <img src="./assets/Vector (3).svg" alt="Quick Assistance Icon">
                     </div>
                     <div class="cardContentDiv">
-                        <h3>Property Insurance</h3>
+                        <h3>Quick Process</h3>
                         <p>
-                            Protect your home and peace of mind with our comprehensive property insurance coverage.
+                            Experience swift and efficient service with our quick process. Say goodbye to long waits and
+                            hello to instant results
                         </p>
                     </div>
                 </div>
@@ -193,18 +204,19 @@
                 <div data-aos="fade-up" class="col-12 col-sm-6 col-md-4 py-4">
                     <div class="card p-2">
                         <div class="cardImgDiv">
-                            <img class="w-100" src="./assets/Rectangle 10.png" alt="">
+                            <img class="w-100" src="./assets/Rectangle 10.png" alt="Modern apartment in Karachi"
+                                loading="lazy">
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -213,7 +225,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -221,12 +233,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -240,14 +252,14 @@
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -256,7 +268,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -264,12 +276,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -283,14 +295,14 @@
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -299,7 +311,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -307,12 +319,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -326,14 +338,14 @@
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -342,7 +354,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -350,12 +362,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -369,14 +381,14 @@
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -385,7 +397,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -393,12 +405,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -412,14 +424,14 @@
                         </div>
                         <div class="px-2">
                             <div class="cardContentDiv pt-2">
-                                <h4>IDR 200.000.000</h4>
-                                <p class="text-start">Jl. Soekarno Hatta, Jakarta</p>
+                                <h4>PKR 200.000.000</h4>
+                                <p class="text-start">Jl. DHA, Phase VII Karachi</p>
                                 <p class="text-start">Sell</p>
                             </div>
                             <div class="cardSpecificationDiv d-flex justify-content-between flex-wrap gap-1">
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-bed"></i>
                                         <p class="m-0">5</p>
                                     </div>
                                     <div>
@@ -428,7 +440,7 @@
                                 </div>
                                 <div class="d-flex flex-column">
                                     <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-toilet-paper"></i>
+                                        <i aria-hidden="true" class="fa-solid fa-toilet-paper"></i>
                                         <p class="m-0">3</p>
                                     </div>
                                     <div>
@@ -436,12 +448,12 @@
                                     </div>
                                 </div>
                                 <div class="d-flex flex-column">
-                                    <div class="d-flex justify-content-between align-items-center">
-                                        <i class="fa-solid fa-bed"></i>
-                                        <p class="m-0">5</p>
+                                    <div class="d-flex justify-content-between align-items-center gap-2">
+                                        <i class="fa-solid fa-ruler-combined" aria-hidden="true"></i>
+                                        <p class="m-0">250m²</p>
                                     </div>
                                     <div>
-                                        Bedroom
+                                        Area
                                     </div>
                                 </div>
                             </div>
@@ -459,22 +471,23 @@
                 <h2 data-aos="fade-right">
                     Feature
                 </h2>
-                <button data-aos="fade-left">View All</button>
+                <button data-aos="fade-left" aria-label="View all featured properties">View All</button>
             </div>
 
             <div class="featureCardSection row">
                 <div data-aos="fade-up" class="col-12 col-sm-6 col-md-4 py-4">
                     <div class="featureCardDiv position-relative">
                         <div class="featureImgDiv">
-                            <img class="w-100" src="./assets/sandra-rei.png" alt="">
+                            <img class="w-100" src="./assets/sandra-rei.png" alt="Minimalist living room"
+                                loading="lazy">
                         </div>
                         <div class="featureContentDiv d-none position-absolute bottom-0 w-100 h-100">
                             <h4>Couch Bed</h4>
                             <p>Minimalist House</p>
                             <h5>
-                                IDR 200jt
+                                PKR 200jt
                             </h5>
-                            <button>
+                            <button aria-label="View Couch Bed property">
                                 View
                             </button>
                         </div>
@@ -483,15 +496,15 @@
                 <div data-aos="fade-up" class="col-12 col-sm-6 col-md-4 py-4">
                     <div class="featureCardDiv position-relative">
                         <div class="featureImgDiv">
-                            <img class="w-100" src="./assets/aranprime.png" alt="">
+                            <img class="w-100" src="./assets/aranprime.png" alt="Modern couch design" loading="lazy">
                         </div>
                         <div class="featureContentDiv d-none position-absolute bottom-0 w-100 h-100">
-                            <h4>Couch Bed</h4>
-                            <p>Minimalist House</p>
+                            <h4>Modern Kitchen</h4>
+                            <p>Contemporary House</p>
                             <h5>
-                                IDR 200jt
+                                PKR 200jt
                             </h5>
-                            <button>
+                            <button aria-label="View Modern Kitchen property">
                                 View
                             </button>
                         </div>
@@ -500,15 +513,15 @@
                 <div data-aos="fade-up" class="col-12 col-sm-6 col-md-4 py-4">
                     <div class="featureCardDiv position-relative">
                         <div class="featureImgDiv">
-                            <img class="w-100" src="./assets/spacejoy.png" alt="">
+                            <img class="w-100" src="./assets/spacejoy.png" alt="Elegant bedroom" loading="lazy">
                         </div>
                         <div class="featureContentDiv d-none position-absolute bottom-0 w-100 h-100">
-                            <h4>Couch Bed</h4>
-                            <p>Minimalist House</p>
+                            <h4>Master Bedroom</h4>
+                            <p>Luxury House</p>
                             <h5>
-                                IDR 200jt
+                                PKR 200jt
                             </h5>
-                            <button class="">
+                            <button aria-label="View Master Bedroom property">
                                 View
                             </button>
                         </div>
@@ -520,7 +533,7 @@
 
     <!-- Contact Section -->
     <section id="contactSection" class="contactSection position-relative">
-        <div class="backdropDiv position-absolute top-0 start-0 w-100 h-100"></div>
+        <div class="backdropDiv position-absolute top-0 start-0 w-100 h-100" aria-hidden="true"></div>
 
         <div class="container position-relative py-5">
             <div class="row w-100 m-0">
@@ -535,14 +548,15 @@
                     <div class="contactInfoDiv">
                         <h6>Contact</h6>
                         <ul class="ps-0">
-                            <li><i class="fa-solid fa-location-dot"></i>
+                            <li><i aria-hidden="true" class="fa-solid fa-location-dot"></i>
                                 <p> Block-1. S.I.T.E. Town, Karachi</p>
                             </li>
-                            <li><i class="fa-solid fa-phone"></i>
-                                <p> +92 3453789123</p>
+                            <li><i aria-hidden="true" class="fa-solid fa-phone"></i>
+                                <p> <a href="tel:+923453789123" class="text-white">+92 3453789123</a></p>
                             </li>
-                            <li><i class="fa-solid fa-envelope"></i>
-                                <p> myproperty@gmail.com</p>
+                            <li><i aria-hidden="true" class="fa-solid fa-envelope"></i>
+                                <p> <a href="mailto:myproperty@gmail.com" class="text-white">myproperty@gmail.com</a></p>
+                                </p>
                             </li>
                         </ul>
                     </div>
@@ -550,13 +564,13 @@
                     <div class="socialInfoDiv">
                         <h6>Social Media</h6>
                         <ul class="ps-0">
-                            <li><i class="fa-brands fa-instagram"></i>
+                            <li><i aria-hidden="true" class="fa-brands fa-instagram"></i>
                                 <p>@myproperty</p>
                             </li>
-                            <li><i class="fa-brands fa-x-twitter"></i>
+                            <li><i aria-hidden="true" class="fa-brands fa-x-twitter"></i>
                                 <p>@myproperty</p>
                             </li>
-                            <li><i class="fa-brands fa-facebook"></i>
+                            <li><i aria-hidden="true" class="fa-brands fa-facebook"></i>
                                 <p>@myproperty</p>
                             </li>
                         </ul>
@@ -588,7 +602,7 @@
         <div class="container d-flex justify-content-between align-items-center py-3 flex-wrap flex-sm-nowrap gap-3">
             <div class="footerBrand">
                 <a class="navbar-brand" href="#">
-                    <i class="fa-solid fa-house"></i>
+                    <i aria-hidden="true" class="fa-solid fa-house"></i>
                     myProperty
                 </a>
             </div>
